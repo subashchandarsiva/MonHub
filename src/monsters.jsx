@@ -23,8 +23,9 @@ class Monsters extends Component {
     );
     return (
       <div>
+        <h1 className="pagetitle">Monsters Point</h1>
         <SearchBox
-          placeholder="search"
+          placeholder="search monsters"
           handleChange={(e) => {
             this.setState({ searchField: e.target.value });
           }}
